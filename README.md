@@ -2,10 +2,6 @@
 
 A modern, responsive ReactJS application that integrates with the Fake Store API to display products and manage a shopping cart using modal interfaces.
 
-## 📦 Live Demo
-
-[Deploy your own](QUICK-DEPLOY.md) | [Detailed Deployment Guide](DEPLOYMENT.md)
-
 ## 🚀 Features
 
 - **Product Display**: Fetches and displays products from the Fake Store API
@@ -77,69 +73,6 @@ To preview the production build:
 ```bash
 npm run preview
 ```
-
-## 🚀 Deployment
-
-This project is ready to deploy on Netlify!
-
-💡 **Quick Start**: See [QUICK-DEPLOY.md](QUICK-DEPLOY.md) for a quick reference guide
-
-📚 **Detailed Guide**: See [DEPLOYMENT.md](DEPLOYMENT.md) for step-by-step instructions
-
-### **Quick Deploy via GitHub**
-
-1. **Push to GitHub:**
-   ```bash
-   # Create a new repository on GitHub (https://github.com/new)
-   # Then run these commands:
-   
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-2. **Deploy on Netlify:**
-   - Go to [Netlify](https://app.netlify.com/)
-   - Click **"Add new site"** → **"Import an existing project"**
-   - Choose **"Deploy with GitHub"**
-   - Select your repository
-   - Netlify will automatically detect the settings from `netlify.toml`
-   - Click **"Deploy site"**
-
-   Your site will be live in minutes! 🎉
-
-#### **Option 2: Deploy via Netlify CLI**
-
-1. **Install Netlify CLI:**
-   ```bash
-   npm install -g netlify-cli
-   ```
-
-2. **Build your project:**
-   ```bash
-   npm run build
-   ```
-
-3. **Deploy:**
-   ```bash
-   # For a draft deploy
-   netlify deploy
-   
-   # For production deploy
-   netlify deploy --prod
-   ```
-
-#### **Option 3: Drag and Drop Deploy**
-
-1. **Build your project:**
-   ```bash
-   npm run build
-   ```
-
-2. **Deploy:**
-   - Go to [Netlify Drop](https://app.netlify.com/drop)
-   - Drag and drop your `dist` folder
-   - Your site will be live instantly!
 
 ### **Environment Variables**
 
