@@ -2,6 +2,10 @@
 
 A modern, responsive ReactJS application that integrates with the Fake Store API to display products and manage a shopping cart using modal interfaces.
 
+## 📦 Live Demo
+
+[Deploy your own](QUICK-DEPLOY.md) | [Detailed Deployment Guide](DEPLOYMENT.md)
+
 ## 🚀 Features
 
 - **Product Display**: Fetches and displays products from the Fake Store API
@@ -76,11 +80,13 @@ npm run preview
 
 ## 🚀 Deployment
 
-### **Deploy to Netlify**
+This project is ready to deploy on Netlify!
 
-This project is configured and ready to deploy on Netlify. Follow these steps:
+💡 **Quick Start**: See [QUICK-DEPLOY.md](QUICK-DEPLOY.md) for a quick reference guide
 
-#### **Option 1: Deploy via GitHub (Recommended)**
+📚 **Detailed Guide**: See [DEPLOYMENT.md](DEPLOYMENT.md) for step-by-step instructions
+
+### **Quick Deploy via GitHub**
 
 1. **Push to GitHub:**
    ```bash
