@@ -74,6 +74,78 @@ To preview the production build:
 npm run preview
 ```
 
+## 🚀 Deployment
+
+### **Deploy to Netlify**
+
+This project is configured and ready to deploy on Netlify. Follow these steps:
+
+#### **Option 1: Deploy via GitHub (Recommended)**
+
+1. **Push to GitHub:**
+   ```bash
+   # Create a new repository on GitHub (https://github.com/new)
+   # Then run these commands:
+   
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+2. **Deploy on Netlify:**
+   - Go to [Netlify](https://app.netlify.com/)
+   - Click **"Add new site"** → **"Import an existing project"**
+   - Choose **"Deploy with GitHub"**
+   - Select your repository
+   - Netlify will automatically detect the settings from `netlify.toml`
+   - Click **"Deploy site"**
+
+   Your site will be live in minutes! 🎉
+
+#### **Option 2: Deploy via Netlify CLI**
+
+1. **Install Netlify CLI:**
+   ```bash
+   npm install -g netlify-cli
+   ```
+
+2. **Build your project:**
+   ```bash
+   npm run build
+   ```
+
+3. **Deploy:**
+   ```bash
+   # For a draft deploy
+   netlify deploy
+   
+   # For production deploy
+   netlify deploy --prod
+   ```
+
+#### **Option 3: Drag and Drop Deploy**
+
+1. **Build your project:**
+   ```bash
+   npm run build
+   ```
+
+2. **Deploy:**
+   - Go to [Netlify Drop](https://app.netlify.com/drop)
+   - Drag and drop your `dist` folder
+   - Your site will be live instantly!
+
+### **Environment Variables**
+
+This project doesn't require any environment variables as it uses the public Fake Store API.
+
+### **Custom Domain**
+
+After deployment, you can add a custom domain:
+1. Go to **Site settings** → **Domain management**
+2. Click **"Add custom domain"**
+3. Follow the instructions to configure your domain
+
 ## 📁 Project Structure
 
 ```
